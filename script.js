@@ -47,7 +47,6 @@ services.forEach(service => {
     servicesContainer.innerHTML += serviceCard;
 });
 
-// GSAP hover animation for rotating the images 360 degrees
 const images = document.querySelectorAll('.service-image');
 
 images.forEach(image => {
